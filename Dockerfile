@@ -1,5 +1,4 @@
 FROM debian:8
-
 #Install packages
 RUN apt-get update -y \
 	&& apt-get install -y gcc g++ libuv-dev make python git curl
